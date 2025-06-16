@@ -90,6 +90,8 @@ pip install -r requirements.txt
 How to cook rice,Plan me a study schedule,etc.
 
 ---
+## Result will looklike:
+![image](https://github.com/user-attachments/assets/656f4b05-fe82-4669-92c7-bbc5464985c9)
 
 🧑‍💻 Author
 Built with ❤️ by Isha Patil
