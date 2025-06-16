@@ -61,11 +61,11 @@ https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
 ---
 ## 🚀 Getting Started (Optional)
 
-You can include a basic setup guide like:
+### 📦 Clone the Repository
+
 ```bash
 git clone https://github.com/hrry121/AI_Agent_Langgraph.git
-
----
+```
 
 ### 🔑 Set Up Environment Variables
 
