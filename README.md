@@ -63,19 +63,13 @@ https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
 You can include a basic setup guide like:
 ```bash
 git clone https://github.com/hrry121/AI_Agent_Langgraph.git
-
 ---
+
 ## 📥 Install Requirements
 ```bash
 pip install -r requirements.txt
-
 ---
-### 📥 Install Requirements
 
-```bash
-pip install -r requirements.txt
-```
----
 ### 🔑 Set Up Environment Variables
 
 Create a `.env` file in the root directory with the following content:
@@ -84,6 +78,7 @@ Create a `.env` file in the root directory with the following content:
 GROQ_API_KEY=your_api_key_here
 ```
 This is necessary to access the Groq-powered LLM backend.
+
 ---
 ## 🪄 Example Prompts:
 
