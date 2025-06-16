@@ -45,29 +45,25 @@ When a user provides a high-level or open-ended query, the system intelligently 
 
 - ✅ Feedback Agent reviews each result for correctness, completeness, usefulness, and clarity
 
--🪄 Task Refiner removes duplicates, merges related tasks, and adds or prunes subtasks to streamline execution
+- 🪄 Task Refiner removes duplicates, merges related tasks, and adds or prunes subtasks to streamline execution
 
 - 🔁 This feedback-reflection loop continues iteratively until all tasks are resolved with high quality
 
--🏁 Output Agent formats the final response in a clean and structured manner for the user
+- 🏁 Output Agent formats the final response in a clean and structured manner for the user
 
 - 💬 Interactive and minimal Gradio UI for chat-like interactions
 
 - ⚡ Fast and accurate responses powered by Groq Cloud (LLaMA-3) backend
 ---
 ## 🌐 Live Demo
-https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
 
+https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
+---
 ## 🚀 Getting Started (Optional)
 
 You can include a basic setup guide like:
 ```bash
 git clone https://github.com/hrry121/AI_Agent_Langgraph.git
----
-
-## 📥 Install Requirements
-```bash
-pip install -r requirements.txt
 
 ---
 
