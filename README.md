@@ -91,7 +91,7 @@ How to cook rice,Plan me a study schedule,etc.
 
 ---
 ## Result will looklike:
-![image](https://github.com/user-attachments/assets/656f4b05-fe82-4669-92c7-bbc5464985c9)
+![image](https://github.com/user-attachments/assets/43563f8f-5d75-4e37-aa0d-c8619f286aba)
 
 🧑‍💻 Author
 Built with ❤️ by Isha Patil
