@@ -20,7 +20,7 @@ When a user provides a high-level or open-ended query, the system intelligently 
 ---
 🧠 Agents Used
 
-🧠 Plan Agent – Breaks down complex queries into subtasks
+📝 Plan Agent – Breaks down complex queries into subtasks
 
 🔧 Tool Agent – Executes each subtask using available tools
 
@@ -37,25 +37,25 @@ When a user provides a high-level or open-ended query, the system intelligently 
 ## 🔍 Features
 🧠 Multi-Agent Collaboration Loop:
 
-- Plan Agent breaks down complex queries into smaller, manageable subtasks
+- 📝 Plan Agent breaks down complex queries into smaller, manageable subtasks
 
-- Tool Agent executes each subtask using external tools or LLMs
+- 🔧 Tool Agent executes each subtask using external tools or LLMs
 
-- Reflection Agent evaluates whether the response is complete and suggests new or improved subtasks if necessary
+- 🔍 Reflection Agent evaluates whether the response is complete and suggests new or improved subtasks if necessary
 
-- Feedback Agent reviews each result for correctness, completeness, usefulness, and clarity
+- ✅ Feedback Agent reviews each result for correctness, completeness, usefulness, and clarity
 
-- Task Refiner removes duplicates, merges related tasks, and adds or prunes subtasks to streamline execution
+-🪄 Task Refiner removes duplicates, merges related tasks, and adds or prunes subtasks to streamline execution
 
-- This feedback-reflection loop continues iteratively until all tasks are resolved with high quality
+- 🔁 This feedback-reflection loop continues iteratively until all tasks are resolved with high quality
 
-- Output Agent formats the final response in a clean and structured manner for the user
+-🏁 Output Agent formats the final response in a clean and structured manner for the user
 
 - 💬 Interactive and minimal Gradio UI for chat-like interactions
 
 - ⚡ Fast and accurate responses powered by Groq Cloud (LLaMA-3) backend
 ---
-🌐 Live Demo
+## 🌐 Live Demo
 https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
 
 ## 🚀 Getting Started (Optional)
@@ -65,9 +65,21 @@ You can include a basic setup guide like:
 git clone https://github.com/hrry121/AI_Agent_Langgraph.git
 
 ---
-Install Requirements
+## 📥 Install Requirements
 ```bash
 pip install -r requirements.txt
 
 ---
-Note make sure you have made .env file to keep your secret API keys
+## Set Up Environment Variables
+Create a .env file in the root directory with the following content:
+```env
+GROQ_API_KEY=your_api_key_here
+This is necessary to access the Groq-powered LLM backend.
+---
+## 🪄 Example Prompts:
+
+How to cook rice,Plan me a study schedule,etc.
+---
+🧑‍💻 Author
+Built with ❤️ by Isha Patil
+📬 Feel free to contribute, fork, or connect!
