@@ -68,6 +68,7 @@ git clone https://github.com/hrry121/AI_Agent_Langgraph.git
 ## 📥 Install Requirements
 ```bash
 pip install -r requirements.txt
+
 ---
 
 ### 🔑 Set Up Environment Variables
@@ -80,10 +81,13 @@ GROQ_API_KEY=your_api_key_here
 This is necessary to access the Groq-powered LLM backend.
 
 ---
+
 ## 🪄 Example Prompts:
 
 How to cook rice,Plan me a study schedule,etc.
+
 ---
+
 🧑‍💻 Author
 Built with ❤️ by Isha Patil
 📬 Feel free to contribute, fork, or connect!
