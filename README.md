@@ -61,4 +61,12 @@ https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
 
 You can include a basic setup guide like:
 ```bash
-git clone https://github.com/hrry121/AI_Agent.git
+git clone https://github.com/hrry121/AI_Agent_Langgraph.git
+
+---
+Install Requirements
+```bash
+pip install -r requirements.txt
+
+---
+Note make sure you have made .env file to keep your secret API keys
