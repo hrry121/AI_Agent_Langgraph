@@ -1,4 +1,4 @@
-# app.py
+
 from app.output_agent import output_filter_agent
 from app.plan_agent import plan_agent
 from app.task_refiner import task_refiner
@@ -53,22 +53,6 @@ def run_agent_ui(query: str):
                 print(f"[⚠️ Error] Subtask {idx + 1}: {e}")
                 state["results"].append(f"(error on this subtask) {str(e)}")
                 yield f"⚠️ Subtask {idx + 1} had an error."
-
-        # # Reflection Agent
-        # yield "📌 Finalizing Output..."
-        # final_output = output_filter_agent(state)
-        # print("\n📌 FINAL OUTPUT (Cleaned for User):\n", final_output)
-        #
-        # if reflection.get("status") == "pass":
-        #     yield "🎯 Reflection Passed. Finalizing results..."
-        #     break
-        # elif reflection.get("suggested_subtasks"):
-        #     state["subtasks"] = reflection["suggested_subtasks"]
-        #     yield "🔁 Reflection suggested new subtasks. Updating..."
-        # else:
-        #     yield "⚠️ No new subtasks from reflection. Ending process."
-        #     break
-        #
         current_iteration += 1
 
 
