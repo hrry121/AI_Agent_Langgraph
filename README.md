@@ -58,6 +58,7 @@ When a user provides a high-level or open-ended query, the system intelligently 
 ## 🌐 Live Demo
 
 https://huggingface.co/spaces/hrry121/AI_Agent_Langgraph
+
 ---
 ## 🚀 Getting Started (Optional)
 
@@ -78,6 +79,12 @@ This is necessary to access the Groq-powered LLM backend.
 
 ---
 
+### 📥 Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+---
 ## 🪄 Example Prompts:
 
 How to cook rice,Plan me a study schedule,etc.
