@@ -6,11 +6,10 @@ import re
 
 def output_filter_agent(state):
     """
-    Give a positive human touch to user's query, if need talk to them as they are friend of yours in kind tone like you should, you can ,etc and describe it a little 1-2 lines
-    Filters and formats only useful subtask results for user-facing display.
+    Give a positive human touch to user's query, friendly tone and describe topic in query a little 1-2 lines maybe a fun fact
     Filters and formats only useful subtask results for user-facing display.
     Removes agent reflections, empty content, meta-comments,non-actionable content and unnecessary agent comments.
-    Adds numbered headers without 'Subtask' label.
+    Adds numbered headers without 'Subtask' label. Don't let user know how you are working,responses of other agents,give them only its answer to query.
     Logs everything to console.
     """
     results = state.get("results", [])
@@ -30,7 +29,9 @@ def output_filter_agent(state):
         "already accurate",
         "no improvement needed",
         "no revision needed",
+        "The result is already comprehensive, accurate, and useful"
         "the result is already satisfactory",
+        "(no changes needed)"
     ]
 
     for i, (subtask, result) in enumerate(zip(subtasks, results), start=1):
