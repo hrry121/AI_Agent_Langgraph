@@ -19,6 +19,7 @@ When a user provides a high-level or open-ended query, the system intelligently 
 - Groq + LLaMA-3 – High-performance LLM backend
 ---
 🧠 Agents Used
+
 🧠 Plan Agent – Breaks down complex queries into subtasks
 
 🔧 Tool Agent – Executes each subtask using available tools
